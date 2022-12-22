@@ -1,0 +1,1048 @@
+.section-about-us {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.section-about-us-c {
+    margin: 0;
+}
+
+
+ 
+.content-img {
+    background: url(../images/fotos/CONOCESSSSSS.png);
+    background-size: cover;
+    background-position: left top;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-img-1 {
+    background: url(../images/fotos/chama-services.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-img-2 {
+    background: url(../images/fotos/porst-2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-img-3 {
+    background: url(../images/fotos/negro.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-img-4 {
+    background: url(../images/fotos/about-us.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.content-img h1,
+.content-img-1 h1, 
+.content-img-3 h1, 
+.content-img-4 h1, 
+.content-img-2 h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.5em;
+}
+
+
+
+
+
+
+.about-us-morado {
+    width: 100%;
+    background-color: #794efd;
+    /* flex-direction: column; */
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.primer-cont,
+.second-cont {
+    margin: auto;
+    width: 50%;
+
+}
+.about-us-morado img {
+    /* width: 100%; */
+    margin: auto;
+    display: block;
+    padding: 10px 0;
+
+}
+
+@media (min-width: 500px) {
+    .content-img, 
+    .content-img-1,
+    .content-img-3,
+    .content-img-4,
+    .content-img-2 {
+        height: 250px;
+    }
+}
+@media (min-width: 768px) {
+    .content-img,
+    .content-img-1, 
+    .content-img-3, 
+    .content-img-4, 
+    .content-img-2 {
+        height: 300px;
+    }
+    .content-img-1 h1,
+    .content-img-2 h1,
+    .content-img-3 h1,
+    .content-img-4 h1,
+    .content-img h1 {
+        font-size: 3em;
+    }
+
+
+
+  
+}
+@media (min-width: 1020px) {
+    .content-img-1 h1,
+    .content-img-2 h1,
+    .content-img-3 h1,
+    .content-img-4 h1,
+    .content-img h1 {
+        font-size: 3.5em;
+    }
+    .content-img-1,
+    .content-img-2,
+    .content-img-3,
+    .content-img-4,
+    .content-img {
+        height: 390px;
+    }
+
+
+
+
+    .about-us-morado {
+        width: 100%;
+        background-color: #794efd;
+        /* flex-direction: column; */
+        padding: 20px 0;
+        display: flex;
+    }
+    .about-us-morado div{
+        width: 90%;
+        padding: 20px 0;
+        display: flex;
+        margin: auto;
+        max-width: 920px;
+    }
+
+    
+    .primer-cont,
+    .second-cont {
+        margin: 0;
+        /* width: 50%; */
+    
+    }
+    .about-us-morado img {
+        /* width: 100%; */
+        margin: auto;
+        display: block;
+        padding: 10px 0;
+    
+    }
+}
+
+
+    
+
+
+
+
+/* estilos del services  */
+.content-service-1 {
+    /* margin-top: 250px; */
+    /* width: 80%; */
+    margin: auto;
+
+}
+.content-service-1 .tercer-cont-escrito {
+    width: 80%;
+    margin: auto;
+
+}
+
+.services-1 {
+    color: rgb(88, 88, 88);
+    margin-top: 100px;
+}
+
+
+.contenedor-articulos-services {
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.articulos-services {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25) ;
+    height: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px 0;
+    text-align: center;
+    transition: all .5s;
+}
+
+.articulos-services:hover {
+    background-color: #f34580;
+    color: #fff;
+}
+.articulos-services:hover p {
+    color: #fff;
+}
+.articulos-services:hover a {
+    color: #f34580;
+    background-color: #fff;
+}
+.articulos-services:hover .icon-pencil,
+.articulos-services:hover .icon-lock-open,
+.articulos-services:hover .icon-cog-outline {
+    background-color: #fff;
+    color: #f34580;
+}
+
+.articulos-services h3 {
+    margin: 0;
+
+
+}
+.articulos-services p {
+    line-height: 30px;
+    color: rgb(172, 172, 172);
+    font-style: italic;
+
+}
+.articulos-services a {
+    display: block;
+    width: 180px;
+    height: 50px;
+    margin:50px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #f34580;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25) ;
+    transition: all .5s;
+
+}
+
+.icon-pencil,
+.icon-lock-open,
+.icon-cog-outline {
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 25px auto 45px;
+    font-size: 2.5em;
+    background-color: #794efd;
+    color: #fff;
+    transition: all .5s;
+
+}
+
+@media (min-width: 870px) {
+    .contenedor-articulos-services {
+        width: 80%;
+        display: flex;
+    }
+    .articulos-services {
+        width: 33.33%;
+        margin: 0 10px;
+    }
+
+
+}
+
+
+
+
+.article-precios {
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    margin: 40px 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .25);
+}
+
+.article-precios p {
+    margin: 15px 0;
+    color: rgb(158, 158, 158);
+    font-size: 0.9em;
+}
+
+.article-precios a {
+    width: 120px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .35);
+    margin-top: 30px;
+    font-size: 0.9em;
+    transition: all .4s;
+}
+.article-precios a:hover {
+    background-color: #794efd;
+    color: #fff;
+    transform: scalex(1.2);
+}   
+
+
+.content-h-b {
+    width: 100%;
+    background-color: #794efd;
+    height: 150px;
+    margin-bottom: 80px;
+    border-radius: 10px 10px 0 0;
+}
+
+.content-h-b h3 {
+    color: #fff;
+    margin: 0;
+    padding-top: 50px;
+    font-size: 1.5em;
+}
+.content-h-b p {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .35);
+    width: 70px;
+    height: 70px;
+    margin: 35px auto;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #794efd;
+
+}
+
+
+
+
+
+
+/* estilos del portafolio */
+
+.contenedor-img-portfolio {
+    width: 100%;
+    margin: auto;
+    padding: 80px 0 0 0;
+}
+
+.img-port-folio {
+    background: url(../images/fotos/woman-in-red-dress-lying-on-brown-dried-leaves-3769145.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* background-attachment: fixed; */
+    
+}
+.img-port-folio h2 {
+    position: absolute;
+    margin: 0;
+    top: 20%;
+    left: 10%;
+    color: #fff;
+    
+}
+.img-port-folio p {
+    position: absolute;
+    margin: 0;
+    bottom: 20%;
+    left: 15%;
+    width: 80%;
+    font-size: 0.9em;
+    color: #fff;
+    font-family: 'Manrope', sans-serif; 
+
+}
+
+.degra-port {
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(30deg,#f3457f91 50%,#7a4efdb4);
+    height: 200px;
+    /* opacity: 0; */
+}
+.degra-port::before {
+    content: "";
+    width: 320px;
+    height: 1.5px;
+    top: 15px;
+    left: 30px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .9);
+    transition: all .5s;
+}
+.degra-port::after {
+    content: "";
+    width: 320px;
+    height: 1.5px;
+    bottom: 15px;
+    right:  30px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .9);
+    transition: all .5s;
+}
+
+
+
+
+
+
+
+@media (min-width:500px) {
+    .contenedor-img-portfolio {
+        width: 100%;
+        margin: auto;
+        /* height: 250px;
+        overflow: hidden; */
+    }
+    
+    .img-port-folio {
+        /* background: url(../images/fotos/portafolio-negra.jpg); */
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        position: relative;
+        transition: all .2s;
+        /* overflow: hidden; */
+        background-size: 100% ;
+        /* background-size: 100% 100%; */
+
+        
+    }
+    .img-port-folio:hover {
+        /* transform: scale(1.2,1.2); */
+        background-size: 120% ;
+        transition: all .2s;
+
+    }
+        
+    .img-port-folio h2 {
+        position: absolute;
+        margin: 0;
+        top: 70px;
+        left: 10%;
+        color: #fff;
+        transform: translateX(-150%);
+        transition: all .5s;
+    }
+
+        
+    .img-port-folio p {
+        position: absolute;
+        margin: 0;
+        bottom: 70px;
+        left: 15%;
+        width: 80%;
+        font-size: 0.9em;
+        color: #fff;
+        font-family: 'Manrope', sans-serif; 
+        transform: translateX(150%);
+        transition: all .5s;
+    }
+    .img-port-folio:hover .h2-post {
+        
+        transform: translateX(0%);
+    }
+    .img-port-folio:hover .postyafolio-p {
+        
+        transform: translateX(0%);
+    }
+
+    
+    
+    .degra-port {
+        position: absolute;
+        width: 100%;
+        /* background-color: rgba(0, 0, 0, .5); */
+        /* background-color: #7a4efd8f; */
+        background-image: linear-gradient(30deg,#f3457f91 50%,#7a4efdb4);
+        height: 250px;
+        opacity: 0;
+        transition: all .5s;
+    }
+
+    .img-port-folio:hover .degra-port {
+        opacity: 1;
+    }
+    .degra-port::before {
+        content: "";
+        width: 0px;
+        height: 1.2px;
+        top: 15px;
+        left: 30px;
+        position: absolute;
+        background-color: #fff;
+        transition: all 1s;
+    }
+    .degra-port::after {
+        content: "";
+        width: 0px;
+        height: 1.5px;
+        bottom: 15px;
+        right:  30px;
+        background-color: #fff;
+        position: absolute;
+        transition: all 1s;
+    }
+
+    .img-port-folio:hover .degra-port::before,
+    .img-port-folio:hover .degra-port::after {
+        width: 90%;
+
+    }
+}
+
+
+
+
+
+@media (min-width:600px) {
+    .contenedor-img-portfolio {
+        width: 100%;
+        margin: auto;
+        /* height: 250px;
+        overflow: hidden; */
+    }
+    
+    .img-port-folio {
+        /* background: url(../images/fotos/portafolio-negra.jpg); */
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        position: relative;
+        transition: all .2s;
+        /* overflow: hidden; */
+        background-size: 100% ;
+        /* background-size: 100% 100%; */
+
+        
+    }
+    .img-port-folio:hover {
+        /* transform: scale(1.2,1.2); */
+        background-size: 120% ;
+        transition: all .5s;
+
+    }
+        
+    .img-port-folio h2 {
+        position: absolute;
+        margin: 0;
+        top: 80px;
+        left: 10%;
+        color: #fff;
+        transform: translateX(-150%);
+        transition: all .5s;
+        font-size: 2.5em;
+    }
+
+        
+    .img-port-folio p {
+        position: absolute;
+        margin: 0;
+        bottom: 100px;
+        left: 15%;
+        width: 80%;
+        font-size: 1.1em;
+        color: #fff;
+        font-family: 'Manrope', sans-serif; 
+        transform: translateX(150%);
+        transition: all .5s;
+    }
+    .img-port-folio:hover .h2-post {
+        
+        transform: translateX(0%);
+    }
+    .img-port-folio:hover .postyafolio-p {
+        
+        transform: translateX(0%);
+    }
+
+    
+    
+    .degra-port {
+        position: absolute;
+        width: 100%;
+        background-image: linear-gradient(30deg,#f3457f91 50%,#7a4efdb4);
+        height: 300px;
+        opacity: 0;
+        transition: all .5s;
+    }
+
+    .img-port-folio:hover .degra-port {
+        opacity: 1;
+    }
+    .degra-port::before {
+        content: "";
+        width: 0px;
+        height: 1.2px;
+        top: 10%;
+        left: 30px;
+        position: absolute;
+        background-color: #fff;
+        transition: all 1s;
+    }
+    .degra-port::after {
+        content: "";
+        width: 0px;
+        height: 1.5px;
+        bottom: 10%;
+        right:  30px;
+        background-color: #fff;
+        position: absolute;
+        transition: all 1s;
+    }
+
+    .img-port-folio:hover .degra-port::before,
+    .img-port-folio:hover .degra-port::after {
+        width: 90%;
+
+    }
+}
+
+
+
+
+@media (min-width:900px) {
+    .contenedor-img-portfolio {
+        width: 100%;
+        margin: auto;
+        /* height: 250px;
+        overflow: hidden; */
+    }
+    
+    .img-port-folio {
+        /* background: url(../images/fotos/portafolio-negra.jpg); */
+        width: 100%;
+        height: 400px;
+        background-position: center;
+        position: relative;
+        transition: all .2s;
+        /* overflow: hidden; */
+        background-size: 100% ;
+        /* background-size: 100% 100%; */
+
+        
+    }
+    .img-port-folio:hover {
+        /* transform: scale(1.2,1.2); */
+        background-size: 120% ;
+        transition: all .5s;
+
+    }
+        
+    .img-port-folio h2 {
+        position: absolute;
+        margin: 0;
+        top: 120px;
+        left: 10%;
+        color: #fff;
+        transform: translateX(-165%);
+        transition: all .5s;
+        font-size: 3em;
+    }
+
+        
+    .img-port-folio p {
+        position: absolute;
+        margin: 0;
+        bottom: 150px;
+        left: 15%;
+        width: 70%;
+        font-size: 1.3em;
+        color: #fff;
+        font-family: 'Manrope', sans-serif; 
+        transform: translateX(150%);
+        transition: all .5s;
+    }
+    .img-port-folio:hover .h2-post {
+        
+        transform: translateX(0%);
+    }
+    .img-port-folio:hover .postyafolio-p {
+        
+        transform: translateX(0%);
+    }
+
+    
+    
+    .degra-port {
+        position: absolute;
+        width: 100%;
+        background-image: linear-gradient(30deg,#f3457f91 50%,#7a4efdb4);
+        height: 400px;
+        opacity: 0;
+        transition: all .5s;
+    }
+
+    .img-port-folio:hover .degra-port {
+        opacity: 1;
+    }
+    .degra-port::before {
+        content: "";
+        width: 0px;
+        height: 1.2px;
+        top: 10%;
+        left: 30px;
+        position: absolute;
+        background-color: #fff;
+        transition: all 1s;
+    }
+    .degra-port::after {
+        content: "";
+        width: 0px;
+        height: 1.5px;
+        bottom: 10%;
+        right:  30px;
+        background-color: #fff;
+        position: absolute;
+        transition: all 1s;
+    }
+
+    .img-port-folio:hover .degra-port::before,
+    .img-port-folio:hover .degra-port::after {
+        width: 90%;
+
+    }
+}
+@media (min-width:1100px) {
+    .contenedor-img-portfolio {
+        width: 100%;
+        margin: auto;
+        /* height: 250px;
+        overflow: hidden; */
+    }
+    
+    .img-port-folio {
+        /* background: url(../images/fotos/portafolio-negra.jpg); */
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        position: relative;
+        transition: all .2s;
+        /* overflow: hidden; */
+        background-size: 100% ;
+        /* background-size: 100% 100%; */
+
+        
+    }
+    .img-port-folio:hover {
+        /* transform: scale(1.2,1.2); */
+        background-size: 120% ;
+        transition: all .5s;
+
+    }
+        
+    .img-port-folio h2 {
+        position: absolute;
+        margin: 0;
+        top: 170px;
+        left: 10%;
+        color: #fff;
+        transform: translateX(-165%);
+        transition: all .5s;
+        font-size: 3em;
+    }
+
+        
+    .img-port-folio p {
+        position: absolute;
+        margin: 0;
+        bottom: 200px;
+        left: 15%;
+        width: 80%;
+        font-size: 1.3em;
+        color: #fff;
+        font-family: 'Manrope', sans-serif; 
+        transform: translateX(150%);
+        transition: all .5s;
+        
+    }
+    .img-port-folio:hover .h2-post {
+        
+        transform: translateX(0%);
+    }
+    .img-port-folio:hover .postyafolio-p {
+        
+        transform: translateX(0%);
+    }
+
+    
+    
+    .degra-port {
+        position: absolute;
+        width: 100%;
+        background-image: linear-gradient(30deg,#f3457f91 50%,#7a4efdb4);
+        height: 500px;
+        opacity: 0;
+        transition: all .5s;
+    }
+
+    .img-port-folio:hover .degra-port {
+        opacity: 1;
+    }
+    .degra-port::before {
+        content: "";
+        width: 0px;
+        height: 1.5px;
+        top: 10%;
+        left: 30px;
+        position: absolute;
+        background-color: #fff;
+        transition: all 1s;
+    }
+    .degra-port::after {
+        content: "";
+        width: 0px;
+        height: 2px;
+        bottom: 10%;
+        right:  30px;
+        background-color: #fff;
+        position: absolute;
+        transition: all 1s;
+    }
+
+    .img-port-folio:hover .degra-port::before,
+    .img-port-folio:hover .degra-port::after {
+        width: 90%;
+
+    }
+}
+
+
+.contenedor-portafolio-busi {
+    width: 80%;
+    margin:  auto;
+}
+.contenedor-portafolio-busi .contenido-de-seccion-business {
+    width: 100%;
+    max-width: 800px;
+    height: 850px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .35);
+    margin: 50px auto;
+}
+
+
+
+.contenet-uvicacion {
+
+}
+
+.contenet-uvicacion iframe {
+    width: 100%;
+    height: 200px;
+}
+
+@media (min-width:500px) {
+    .contenet-uvicacion iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+@media (min-width:600px) {
+    .contenet-uvicacion iframe {
+        width: 100%;
+        height: 350px;
+    }
+}
+@media (min-width:700px) {
+    .contenet-uvicacion iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
+@media (min-width:800px) {
+    .contenet-uvicacion iframe {
+        width: 100%;
+        height: 550px;
+    }
+}
+@media (min-width:900px) {
+    .contenet-uvicacion iframe {
+        width: 100%;
+        height: 650px;
+    }
+}
+
+
+.contenedor-tlf-contactanos {
+    width: 100%;
+    margin: 100px 0 80px;
+}
+
+
+.tlf-contactanos {
+    width: 90%;
+    margin: auto;
+}
+.content-sssss:hover .icon-globe,
+.content-sssss:hover .icon-mobile,
+.content-sssss:hover .icon-mail {
+    color: #fff;
+    background-color: #f34580;
+}
+
+.content-sssss {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    
+}
+
+.icon-globe,
+.icon-mobile,
+.icon-mail {
+    transition: all .5s;
+    /* display: flex; */
+    display: block;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2em;
+    color: #794efd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .35);
+}
+.sotomaniga  {
+    width: 200px;
+}
+.sotomaniga p  {
+    color: rgb(138, 138, 138);
+    line-height: 35px;
+    margin: 0;
+}
+.content-sssss div h3 {
+    margin: 10px 0 10px 0;
+}
+
+
+
+@media (min-width: 500px) {
+
+    
+    
+    .tlf-contactanos {
+        width: 100%;
+        margin: auto;
+        /* display: flex; */
+    }
+    
+    .content-sssss {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    
+    }
+    
+    .icon-globe,
+    .icon-mobile,
+    .icon-mail {
+        /* display: flex; */
+        display: block;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 2em;
+        color: #794efd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .35);
+        margin-right: 45px;
+    }
+    .sotomaniga  {
+        width: 200px;
+    }
+    .sotomaniga p  {
+        color: rgb(138, 138, 138);
+        line-height: 35px;
+        margin: 0;
+    }
+    .content-sssss div h3 {
+        margin: 10px 0 10px 0;
+    }
+}
+
+
+@media (min-width: 1100px) {
+    .tlf-contactanos {
+        /* display: flex; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media (min-width: 1200px) {
+    .tlf-contactanos {
+        display: flex;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .content-sssss {
+        margin: 30px 0;
+    }
+
+    
+}

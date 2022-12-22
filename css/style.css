@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+
+/* estilo de la barra superior contacto-------------------- */
+
+.contacto {
+    width: 100%;
+    background: #794efd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.barra-info-pri {
+    display: blok;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.info-personal,
+.superior-redes-sociales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.content-icons {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+/* .content-icons p {
+    margin: 10px 5px 0 0;
+} */
+.content-icons:nth-child(1) {
+    width: 248px;
+}
+.content-icons:nth-child(2) {
+    width: 150px;
+}
+.content-icons:nth-child(3) {
+    width: 90px;
+}
+    
+
+
+.icon-gmail,
+.icon-phone,
+.icon-user {
+    margin: 0 5px 0 0;
+}
+
+.superior-redes-sociales .icon-facebook-squared,
+.superior-redes-sociales .icon-gmail,
+.superior-redes-sociales .icon-twitter,
+.superior-redes-sociales .icon-instagram {
+    margin: 0px 10px 15px 0;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all .4s;
+    text-decoration: none;
+}
+
+.superior-redes-sociales .icon-facebook-squared:hover,
+.superior-redes-sociales .icon-gmail:hover,
+.superior-redes-sociales .icon-twitter:hover,
+.superior-redes-sociales .icon-instagram:hover {
+    background-color: #f34580;
+    color: #ffffff;
+
+}
+/* media queris ---------------------------------------------------------------------------- */
+
+@media (min-width: 980px) {
+    .contacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .barra-info-pri {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        
+    }
+    
+    .info-personal,
+    .superior-redes-sociales {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.info-personal {
+    display: flex;
+    justify-content: start;
+    width: 60%;
+    margin: 0;
+    
+}
+.superior-redes-sociales {
+    width: 40%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-content: start;
+}
+    
+.content-icons {
+    display: flex;
+    width: auto;
+    justify-content: end;
+    color: #ffffff;
+    margin: 0 15px 0 0;
+    
+}
+.superior-redes-sociales .icon-facebook-squared,
+.superior-redes-sociales .icon-gmail,
+.superior-redes-sociales .icon-twitter,
+.superior-redes-sociales .icon-instagram {
+    margin: 10px 5px;
+
+}
+
+}
+@media (min-width: 560px) {
+    /* .barra-info-pri {
+        width: 80%;
+    } */
+    .info-personal {
+        width: 100%;
+    }
+    /* .superior-redes-sociales {
+
+        display: flex;
+    } */
+    /* .content-icons:nth-child(1) {
+    width: 248px;
+}
+.content-icons:nth-child(2) {
+    width: 150px;
+}
+.content-icons:nth-child(3) {
+    width: 90px;
+} */
+
+}
+
+
+
+
+
